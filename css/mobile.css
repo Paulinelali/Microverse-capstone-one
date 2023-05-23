@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+}
+.header .nav-announcement-wrapper {
+  width: 100%;
+  padding: 24px;
+  background-color: teal;
+}
+.header .nav-announcement-wrapper .main-nav-link-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 24px;
+}
+.header .nav-announcement-wrapper .main-nav-link-wrapper .logo {
+  display: none;
+}
+.header .nav-announcement-wrapper .main-nav-link-wrapper .cancel-mobile-menu-icon span {
+  color: red;
+  font-size: 25px;
+  font-weight: 900;
+}
+.header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 12%;
+}
+.header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list .nav-link {
+  list-style-type: none;
+}
+.header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list .nav-btn {
+  padding: 3%;
+  border: 4px solid red;
+}
+.header .hamburger {
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.header .hamburger .burn-line {
+  width: 30px;
+  border: 3px solid black;
+}
+
+.hero-section {
+  background-image: url("../assets/bg_img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section .bg-red {
+  color: red;
+}
+.hero-section .heading-light {
+  font-weight: 400;
+}
+.hero-section .heading-heavy {
+  font-weight: 900;
+  font-size: 45px;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  background-image: url("../assets/1.PNG");
+  background-position: center;
+}
+.hero-section .content {
+  padding: 12px;
+}
+.hero-section .content .description {
+  border: 4px solid white;
+  padding: 15px;
+}
+.hero-section .content .date P {
+  font-size: 30PX;
+  font-weight: 700;
+  width: 100%;
+  padding: 5px 0;
+}
+
+.main-program {
+  background-image: url("../assets/dotedbg.png");
+  background-color: #292e39;
+  padding: 0 24px 24px 24px;
+}
+.main-program .programs-wrapper-ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.main-program .program {
+  display: grid;
+  grid-template-columns: auto auto 60%;
+  align-items: center;
+  gap: 10px;
+  background-color: rgba(255, 255, 255, 0.0666666667);
+  padding: 12px;
+}
+.main-program .program span {
+  color: red;
+  font-weight: 600;
+}
+.main-program .program p {
+  color: white;
+}
+.main-program .join-udm-wrapper {
+  text-align: center;
+  margin: 24px 0 0 0;
+}
+.main-program .join-udm-wrapper .jon-udm-btn {
+  background-color: red;
+  width: 90%;
+  font-size: 24px;
+  padding: 24px 10px;
+  color: white;
+  border: none;
+}
+
+.headline-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 12px;
+  padding: 35px 0;
+  color: white;
+}
+
+.speakers-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.speakers-wrapper .speaker {
+  display: grid;
+  grid-template-columns: 45% 55%;
+}
+.speakers-wrapper .speaker .img-bg {
+  background-image: url("../assets/bgFrame.png");
+  padding: 10px 0 0 10px;
+  background-size: 50%;
+  background-repeat: no-repeat;
+}
+.speakers-wrapper .speaker .img-bg .speaker-image {
+  width: 80%;
+}
+.speakers-wrapper .speaker .speaker-title {
+  color: red;
+}
+.speakers-wrapper .speaker .speaker-content {
+  align-items: center;
+}
+.speakers-wrapper .speaker .speaker-content hr {
+  width: 25px;
+  margin: 15px 0;
+}
+
+.show-more-less {
+  border: 2px solid black;
+  padding: 12px;
+  width: 100%;
+  background-color: transparent;
+  margin: 24px 0;
+  font-size: 18px;
+}
+.show-more-less span {
+  color: red;
+  font-weight: bolder;
+  font-size: large;
+  width: 125px;
+}
+
+.section {
+  padding: 24px;
+}
+
+.underline {
+  width: 50px;
+  border: 2px solid red;
+  margin: auto;
+}
+
+.dealine-mid-heavy-bg-light {
+  color: black;
+}
+
+.init-hide {
+  display: none !important;
+}
+
+/*# sourceMappingURL=mobile.css.map */
