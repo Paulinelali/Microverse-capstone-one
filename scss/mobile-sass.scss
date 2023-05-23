@@ -1,8 +1,9 @@
 
 
 $font-face:'Lato', sans-serif;
-$bg-red: red;
-
+$color-1: #272A31;
+$color-2: #EC5242;
+$color-3: #D3D3D3;
 *{
     margin: 0;
     padding: 0;
@@ -28,8 +29,9 @@ body{
     .nav-announcement-wrapper{
         width: 100%;
         padding: 24px;
-        
-        background-color: teal;
+        background-color: $color-1;
+        color: $color-3;
+
         .main-nav-link-wrapper{
 
             display: flex;
@@ -42,7 +44,7 @@ body{
             }
         
             .cancel-mobile-menu-icon span{
-                color: red;
+                color: $color-3;
                 font-size: 25px;
                 font-weight: 900;
         
@@ -58,11 +60,21 @@ body{
     
                 .nav-link{
                     list-style-type: none;
+
+                    a{
+                        color: $color-3;
+                        text-decoration: none !important;
+                    }
                 }
     
                 .nav-btn{
                     padding: 3%;
-                    border: 4px solid red;
+                    border: 4px solid $color-2;
+                }
+
+                .nav-btn-bordered{
+                    color: $color-1 !important;
+                    font-weight: bold;
                 }
             }
     }
@@ -78,7 +90,7 @@ body{
             
         .burn-line{
             width: 30px;
-            border: 3px solid black;
+            border: 3px solid $color-1;
         }
     }
 
@@ -87,10 +99,11 @@ body{
 .hero-section{
     background-image: url("../assets/bg_img.jpg");
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 
     .bg-red{
-        color: $bg-red
+        color: $color-2
     }
 
     .heading-light{
@@ -148,7 +161,7 @@ body{
         padding: 12px;
 
         span{
-            color: red;
+            color: $color-2;
             font-weight: 600;
         }
         p{
@@ -161,7 +174,7 @@ body{
         margin: 24px 0 0 0;
 
         .jon-udm-btn{
-            background-color: red;
+            background-color: $color-2;
             width: 90%;
             font-size: 24px;
             padding: 24px 10px;
@@ -201,7 +214,7 @@ body{
         }
 
         .speaker-title{
-            color: red;
+            color: $color-2;
         }
 
         .speaker-content{
@@ -217,7 +230,7 @@ body{
 }
 
 .show-more-less{
-    border: 2px solid black;
+    border: 2px solid $color-1;
     padding: 12px;
     width: 100%;
     background-color: transparent;
@@ -225,7 +238,7 @@ body{
     font-size: 18px;
 
     span{
-        color: red;
+        color: $color-2;
         font-weight: bolder;
         font-size: large;
         width: 125px;
@@ -233,30 +246,153 @@ body{
 }
 
 
+// about page
+.abt-heading-light{
+    font-weight: 400;
+    text-align: center;
+}
+
+.abt-heading-heavy{
+    font-weight: 900;
+    font-size: 45px;
+   color: $color-2;
+   text-align: center;
+}
+.abt-content{
+    padding: 12px;
+
+    .abt-description{
+        background-color: white;
+        padding: 15px;
+        margin: 15px 0 0 0;
+        text-align: center;
+        border: 1px solid lightgray
+
+    }
+
+    .cta-info P{
+        width: 100%;
+        padding: 5px 0;
+        margin: 24px 0;
+        text-align: center;
+    }
+}
+
+.abt-section-2{
+    border-bottom: 1px solid lightgray;
+
+    > p{
+        margin: 12px 0;
+    }
+
+    .section-2-logo{
+        width: 100%;
+        padding: 24px 0;
+
+        img{
+            width: 100%;
+        }
+    }
+}
+
+.abt-take-alook{
+    margin: 24px auto;
+}
+
+.abt-past-events-card-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+
+    .abt-past-event-2022{
+        font-weight: 900;
+        font-size: 2rem;
+    }
+   
+
+    .abt-card-1{
+        background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win1.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 60px;
+        color: white
+        
+}
+    .abt-card-2{
+        background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-top: 60px;
+        color: white
+    }
+}
+
+.abt-section-3{
+    background-color: $color-1;
+    color: white;
+    padding: 30px 0 50px 0 !important;
+
+    .abt-partner-logo-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+
+    }
+    .abt-partner-logo-wrapper img{
+        width: 25%
+    }
+
+}
+
+.abt-section-4{
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 24px 0;
+    margin: 24px 0;
+
+    .footer-logo-wrapper{
+        width: 80%;
+    }
+    .footer-logo-wrapper img{
+        width: 100%;
+    }
+}
+
+
+
 // global style
+
+.abt-section{
+    text-align: center;
+}
 
 .section{
     padding: 24px;
 }
 .underline{
     width: 50px;
-    border: 2px solid red;
-    margin: auto;
+    border: 2px solid $color-2;
+    margin: 12px auto;
 }
 
 .dealine-mid-heavy-bg-light{
-    color: black;
+    color: $color-1;
 }
 .init-hide{
     display: none!important;
 }
 
-// .bgFrame {
-//     display: flex;
-//     width: 45%;
-//     background-image: url(./assets/bgFrame.png);
-//     background-repeat: no-repeat;
-//     background-size: 50% 50%;
-//     justify-content: end;
-//     align-items: flex-end;
-//   }
+
+

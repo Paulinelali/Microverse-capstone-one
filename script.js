@@ -138,6 +138,18 @@ function showMore() {
 
 }
 
+
+
+// nav-link
+
+let navLinks = document.querySelectorAll(".nav-link");
+navLinks.forEach( link => {
+    link.addEventListener("click", () => {
+        toggleMobileMenu();
+        body.classList.remove("no-scroll")
+    })
+})
+
 window.onload = () => {
     speaker(speakers);
     showMore()
