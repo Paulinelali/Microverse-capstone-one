@@ -26,6 +26,7 @@ body {
   margin: 24px 0;
   font-size: 18px;
 }
+
 .show-more-less span {
   color: #ec5242;
   font-weight: bolder;
@@ -36,13 +37,16 @@ body {
 .abt-section-2 {
   border-bottom: 1px solid lightgray;
 }
+
 .abt-section-2 > p {
   margin: 12px 0;
 }
+
 .abt-section-2 .section-2-logo {
   width: 100%;
   padding: 24px 0;
 }
+
 .abt-section-2 .section-2-logo img {
   width: 100%;
 }
@@ -52,11 +56,13 @@ body {
   background-color: #292e39;
   padding: 0 24px 24px 24px;
 }
+
 .main-program .programs-wrapper-ul {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
+
 .main-program .program {
   display: grid;
   grid-template-columns: auto auto 60%;
@@ -65,17 +71,21 @@ body {
   background-color: rgba(255, 255, 255, 0.0666666667);
   padding: 12px;
 }
+
 .main-program .program span {
   color: #ec5242;
   font-weight: 600;
 }
+
 .main-program .program p {
   color: white;
 }
+
 .main-program .join-udm-wrapper {
   text-align: center;
   margin: 24px 0 0 0;
 }
+
 .main-program .join-udm-wrapper .jon-udm-btn {
   background-color: #ec5242;
   width: 90%;
@@ -88,26 +98,31 @@ body {
 .header {
   display: flex;
 }
+
 .header .nav-announcement-wrapper {
   width: 100%;
   padding: 24px;
   background-color: #272a31;
   color: #d3d3d3;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper {
   display: flex;
   flex-direction: column;
   gap: 25px;
   padding: 24px;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .logo {
   display: none;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .cancel-mobile-menu-icon span {
   color: #d3d3d3;
   font-size: 25px;
   font-weight: 900;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list {
   display: flex;
   flex-direction: column;
@@ -116,27 +131,33 @@ body {
   font-size: 24px;
   margin-left: 12%;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list .nav-link {
   list-style-type: none;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list .nav-link a {
   color: #d3d3d3;
   text-decoration: none !important;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list .nav-btn {
   padding: 3%;
   border: 4px solid #ec5242;
 }
+
 .header .nav-announcement-wrapper .main-nav-link-wrapper .main-nav-list .nav-btn-bordered {
   color: #272a31 !important;
   font-weight: bold;
 }
+
 .header .hamburger {
   padding: 24px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
+
 .header .hamburger .burn-line {
   width: 30px;
   border: 3px solid #272a31;
@@ -145,6 +166,7 @@ body {
 .abt-content {
   padding: 12px;
 }
+
 .abt-content .abt-description {
   background-color: white;
   padding: 15px;
@@ -152,6 +174,7 @@ body {
   text-align: center;
   border: 1px solid lightgray;
 }
+
 .abt-content .cta-info p {
   width: 100%;
   padding: 5px 0;
@@ -165,12 +188,15 @@ body {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 .hero-section .bg-red {
   color: #ec5242;
 }
+
 .hero-section .heading-light {
   font-weight: 400;
 }
+
 .hero-section .heading-heavy {
   font-weight: 900;
   font-size: 45px;
@@ -179,13 +205,16 @@ body {
   background-image: url("../assets/1.PNG");
   background-position: center;
 }
+
 .hero-section .content {
   padding: 12px;
 }
+
 .hero-section .content .description {
   border: 4px solid white;
   padding: 15px;
 }
+
 .hero-section .content .date p {
   font-size: 30px;
   font-weight: 700;
@@ -207,25 +236,31 @@ body {
   flex-direction: column;
   gap: 12px;
 }
+
 .speakers-wrapper .speaker {
   display: grid;
   grid-template-columns: 45% 55%;
 }
+
 .speakers-wrapper .speaker .img-bg {
   background-image: url("../assets/bgFrame.png");
   padding: 10px 0 0 10px;
   background-size: 50%;
   background-repeat: no-repeat;
 }
+
 .speakers-wrapper .speaker .img-bg .speaker-image {
   width: 80%;
 }
+
 .speakers-wrapper .speaker .speaker-title {
   color: #ec5242;
 }
+
 .speakers-wrapper .speaker .speaker-content {
   align-items: center;
 }
+
 .speakers-wrapper .speaker .speaker-content hr {
   width: 25px;
   margin: 15px 0;
@@ -252,10 +287,12 @@ body {
   flex-direction: column;
   gap: 12px;
 }
+
 .abt-past-events-card-wrapper .abt-past-event-2022 {
   font-weight: 900;
   font-size: 2rem;
 }
+
 .abt-past-events-card-wrapper .abt-card-1 {
   background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win1.jpg");
   background-repeat: no-repeat;
@@ -268,6 +305,7 @@ body {
   padding-top: 60px;
   color: white;
 }
+
 .abt-past-events-card-wrapper .abt-card-2 {
   background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win2.jpg");
   background-repeat: no-repeat;
@@ -286,12 +324,14 @@ body {
   color: white;
   padding: 30px 0 50px 0 !important;
 }
+
 .abt-section-3 .abt-partner-logo-wrapper {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 15px;
 }
+
 .abt-section-3 .abt-partner-logo-wrapper img {
   width: 25%;
 }
@@ -303,9 +343,11 @@ body {
   padding: 24px 0;
   margin: 24px 0;
 }
+
 .abt-section-4 .footer-logo-wrapper {
   width: 80%;
 }
+
 .abt-section-4 .footer-logo-wrapper img {
   width: 100%;
 }
@@ -331,5 +373,3 @@ body {
 .init-hide {
   display: none !important;
 }
-
-/*# sourceMappingURL=mobile.css.map */
