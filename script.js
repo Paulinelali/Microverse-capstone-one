@@ -72,7 +72,7 @@ function speaker(speakersArr) {
     </div>
     <div class="speaker-content">
         <h3 class="speaker-name">${speakersArr[i].name}</h3>
-        <p class="speaker-title">${speakersArr[i].title}</p>
+        <p class="speaker-title"><i>${speakersArr[i].title}</i></p>
         <hr>
         <p>${speakersArr[i].description}</p>
     </div>
