@@ -377,3 +377,7 @@ body {
 .init-hide {
   display: none !important;
 }
+
+.desktop-footer{
+  display: none
+}
