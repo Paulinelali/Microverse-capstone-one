@@ -361,7 +361,7 @@ body {
 }
 
 .section {
-  padding: 24px;
+  padding: 10% !important;
 }
 
 .underline {
@@ -378,6 +378,14 @@ body {
   display: none !important;
 }
 
-.desktop-footer{
-  display: none
+.desktop-footer {
+  display: none;
+}
+
+.section-bt5 {
+  margin: 5% 0 !important;
+}
+
+.heading-heavey {
+  font-weight: 900 !important;
 }
