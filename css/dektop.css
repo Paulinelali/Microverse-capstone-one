@@ -96,6 +96,12 @@ a {
   background-color: #292e39;
   padding: 1% 10% 5% 10%;
 }
+
+.main-program .programs-wrapper .programs-wrapper-ul {
+  display: flex;
+  gap: 2px;
+}
+
 .main-program .see-the-whole-program {
   text-align: center;
   margin-top: 5%;
@@ -114,10 +120,7 @@ a {
   padding: 35px 0;
   color: white;
 }
-.main-program .programs-wrapper .programs-wrapper-ul {
-  display: flex;
-  gap: 2px;
-}
+
 .main-program .programs-wrapper .programs-wrapper-ul .program {
   display: flex;
   flex-direction: column;
