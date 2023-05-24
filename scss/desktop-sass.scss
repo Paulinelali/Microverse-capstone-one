@@ -272,7 +272,47 @@ body {
 }
 
 
+// about page
 
+.abt-content{
+    padding: 10%;
+    text-align: center;
+    
+    .abt-heading-light{
+        color: $color-2;
+        font-size: 24px;
+    }
+    .abt-heading-heavy{
+        font-weight: 900;
+        font-size: 70px;
+        width: 89%;
+        color: transparent;
+        -webkit-background-clip: text;
+        background-image: url("../assets/1.PNG");
+        background-position: center;
+    }
+
+    .abt-description{
+        border: 1px solid $color-3;
+        padding: 12px;
+        width: 60%;
+        margin: 25px auto;
+        background-color: $color-4
+    }
+
+    .date p{
+        width: 50%;
+        margin: 2% auto;
+        text-align: center;
+        padding: 5px 0;
+        color: $color-1;
+        
+    }
+
+    span{
+        font-size: 18px;
+    }
+}
 
 
 

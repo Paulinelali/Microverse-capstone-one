@@ -218,6 +218,41 @@ body {
   width: 100%;
 }
 
+.abt-content {
+  padding: 10%;
+  text-align: center;
+}
+.abt-content .abt-heading-light {
+  color: #ec5242;
+  font-size: 24px;
+}
+.abt-content .abt-heading-heavy {
+  font-weight: 900;
+  font-size: 70px;
+  width: 89%;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-image: url("../assets/1.PNG");
+  background-position: center;
+}
+.abt-content .abt-description {
+  border: 1px solid #d3d3d3;
+  padding: 12px;
+  width: 60%;
+  margin: 25px auto;
+  background-color: white;
+}
+.abt-content .date p {
+  width: 50%;
+  margin: 2% auto;
+  text-align: center;
+  padding: 5px 0;
+  color: #272a31;
+}
+.abt-content span {
+  font-size: 18px;
+}
+
 .cancel-mobile-menu-icon {
   display: none;
 }
