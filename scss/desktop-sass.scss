@@ -314,9 +314,99 @@ body {
     }
 }
 
+.abt-section-2{
+    text-align: center;
+    padding: 5%;
+    border-bottom: 2px solid $color-3;
 
+    p{
+        width: 70%;
+        margin: 1% auto;
+    }
 
-// global stles
+    img{
+        width: 50%;
+        margin: 3% auto;
+    }
+}
+
+.abt-section-3{
+    text-align: center;
+    padding: 5%;
+
+    .abt-past-events-card-wrapper{
+        display: flex;
+        gap: 5%;
+        justify-content: center;
+        margin-top: 5%;
+        height: 250px;
+
+        .abt-card-1{
+            background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win1.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-top: 60px;
+            color: white;
+            width: 30%;
+            
+            .abt-past-event-2022{
+                margin-top: 25px;
+                font-weight: 900;
+                font-size: 2rem;
+            }
+        }
+
+        .abt-card-2{
+            background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win2.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            padding-top: 60px;
+            color: white;
+            width: 30%;
+            
+            .abt-past-event-2022{
+                margin-top: 25px;
+                font-weight: 900;
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+.last-section-footer{
+    display: flex;
+    gap: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: $color-5;
+    color: $color-3;
+
+    .footer-logo-wrapper{
+        width: 30%;
+
+        img{
+            width: 100%
+        }
+    }
+    
+    .footer-widget-1{
+        
+    }
+}
+
+// global styles
+
+.btn-partners{
+    display: none;
+}
 
 .cancel-mobile-menu-icon{
     display: none;
