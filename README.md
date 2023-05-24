@@ -20,6 +20,10 @@
 
 <!-- PROJECT DESCRIPTION -->
 
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://paulinelali.github.io/Microverse-capstone-one/index.html)
+- 
 # 📖 First Capstone Project <a name="about-project"></a>
 
 ## Project Description**
