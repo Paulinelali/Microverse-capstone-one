@@ -310,7 +310,7 @@ body {
   color: white;
 }
 
-.feature-speakers .heading-mid-heavy-bg-light{
+.feature-speakers .heading-mid-heavy-bg-light {
   color: black;
 }
 
@@ -382,7 +382,8 @@ body {
   display: none !important;
 }
 
-.desktop-footer, .see-the-whole-program {
+.desktop-footer,
+.see-the-whole-program {
   display: none;
 }
 
