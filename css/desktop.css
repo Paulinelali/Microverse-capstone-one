@@ -57,9 +57,14 @@ a {
 .hero-section .main-nav-link-wrapper {
   background-color: white;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 35% 60%;
+  gap: 5%;
   text-align: center;
   padding: 1% 10% 1% 10%;
+}
+
+.main-nav-link-wrapper .logo {
+  width: 100%;
 }
 
 .hero-section .main-nav-link-wrapper .main-nav-list {
