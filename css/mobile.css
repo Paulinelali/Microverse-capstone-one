@@ -360,12 +360,6 @@ body {
   text-align: center;
 }
 
-/* section */
-
-.see-the-whole-program {
-  display: none;
-}
-
 .section {
   padding: 24px;
 }
@@ -376,12 +370,8 @@ body {
   margin: 12px auto;
 }
 
-.heading-mid-heavy-bg-light {
+.dealine-mid-heavy-bg-light {
   color: #272a31;
-}
-
-.desktop-footer {
-  display: none;
 }
 
 .init-hide {
