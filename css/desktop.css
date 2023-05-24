@@ -55,7 +55,7 @@ a {
 }
 
 .hero-section .main-nav-link-wrapper {
-  background-color: #d3d3d3;
+  background-color: white;
   display: grid;
   grid-template-columns: 40% 60%;
   text-align: center;
@@ -325,7 +325,7 @@ a {
   padding: 5%;
 }
 
-.abt-section-3 .abt-past-events-card-wrapper {
+.abt-past-events-card-wrapper {
   display: flex;
   gap: 5%;
   justify-content: center;
@@ -333,8 +333,8 @@ a {
   height: 250px;
 }
 
-.abt-section-3 .abt-past-events-card-wrapper .abt-card-1 {
-  background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win1.jpg");
+.abt-card-1{
+  background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("/assets/win1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -352,7 +352,7 @@ a {
   font-size: 2rem;
 }
 
-.abt-section-3 .abt-past-events-card-wrapper .abt-card-2 {
+.abt-card-2 {
   background: linear-gradient(rgba(236, 82, 66, 0.8), rgba(236, 82, 66, 0.8)), url("../assets/win2.jpg");
   background-repeat: no-repeat;
   background-size: cover;

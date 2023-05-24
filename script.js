@@ -37,6 +37,13 @@ const speakers = [
     description: 'Mosh Hemdani is a postdoctoral software engineer at the SEART research group, at Software Institute, USI, Switzerland.',
   },
   {
+    img: './assets/mother-4.jpg',
+    bg: './assets/bgFrame.png',
+    name: 'Adeleke Jankie',
+    title: 'Ibadan University',
+    description: 'Sven Apel is an associate professor in the School of Electrical Engineering and Computer Science at Washington State University, Pullman.',
+  },
+  {
     img: './assets/mother-2.jpg',
     bg: './assets/bgFrame.png',
     name: 'Juliana Pereira',
@@ -58,6 +65,14 @@ const speakers = [
     title: 'Saarland University',
     description: 'Sven Apel is an associate professor in the School of Electrical Engineering and Computer Science at Washington State University, Pullman.',
   },
+  {
+    img: './assets/mother-2.jpg',
+    bg: './assets/bgFrame.png',
+    name: 'Taiwo Juventis',
+    title: 'Obafemi University',
+    description: 'Juliana is a Lecturer (Assistant Professor) in Software Engineering at the School of Computing Science, University of Glasgow, United Kingdom.',
+  },
+
 ];
 
 function speaker(speakersArr) {
@@ -96,9 +111,13 @@ function showMore() {
   const less = document.querySelector('.show-more-less');
   const initHideSpeakerOne = document.querySelector('.speaker-2');
   const initHideSpeakerTwo = document.querySelector('.speaker-3');
+  const initHideSpeakerThree = document.querySelector('.speaker-4');
+  const initHideSpeakerFour = document.querySelector('.speaker-5');
 
   initHideSpeakerOne.classList.add('init-hide');
   initHideSpeakerTwo.classList.add('init-hide');
+  initHideSpeakerThree.classList.add('init-hide');
+  initHideSpeakerFour.classList.add('init-hide');
 
   function toggleMoreLess() {
     less.classList.toggle('show-less');
@@ -107,10 +126,14 @@ function showMore() {
 
       initHideSpeakerOne.classList.remove('init-hide');
       initHideSpeakerTwo.classList.remove('init-hide');
+      initHideSpeakerThree.classList.remove('init-hide');
+      initHideSpeakerFour.classList.remove('init-hide');
     } else if (less.innerHTML !== 'Show More <span>∧</span>') {
       less.innerHTML = 'Show More <span>∨</span>';
       initHideSpeakerOne.classList.add('init-hide');
       initHideSpeakerTwo.classList.add('init-hide');
+      initHideSpeakerThree.classList.add('init-hide');
+      initHideSpeakerFour.classList.add('init-hide');
     }
   }
   less.addEventListener('click', toggleMoreLess);
