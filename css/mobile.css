@@ -359,9 +359,10 @@ body {
 .abt-section {
   text-align: center;
 }
+
 /* section */
 
-.see-the-whole-program{
+.see-the-whole-program {
   display: none;
 }
 
@@ -379,9 +380,10 @@ body {
   color: #272a31;
 }
 
-.desktop-footer{
+.desktop-footer {
   display: none;
 }
+
 .init-hide {
   display: none !important;
 }
