@@ -72,6 +72,10 @@ body {
   padding: 12px;
 }
 
+.main-program .program i {
+  color: #d3d3d3 !important;
+}
+
 .main-program .program span {
   color: #ec5242;
   font-weight: 600;

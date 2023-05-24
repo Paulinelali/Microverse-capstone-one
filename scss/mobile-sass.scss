@@ -76,6 +76,10 @@ body {
     background-color: #fff1;
     padding: 12px;
 
+    i {
+      color: $color-3 !important;
+    }
+
     span {
       color: $color-2;
       font-weight: 600;
